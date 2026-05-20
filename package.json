@@ -1,0 +1,35 @@
+{
+  "name": "omni-creator-hub",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "vue": "^3.5.13",
+    "pinia": "^2.2.6",
+    "@tauri-apps/api": "^2.1.1",
+    "@tauri-apps/plugin-shell": "^2.2.0",
+    "markdown-it": "^14.1.0",
+    "dompurify": "^3.1.6",
+    "shiki": "^1.24.0",
+    "diff": "^5.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^5.4.11",
+    "typescript": "^5.6.3",
+    "vue-tsc": "^2.1.10",
+    "tailwindcss": "^3.4.15",
+    "postcss": "^8.4.49",
+    "autoprefixer": "^10.4.20",
+    "@tauri-apps/cli": "^2.1.0",
+    "@types/dompurify": "^3.0.5",
+    "@types/diff": "^5.2.1",
+    "@types/markdown-it": "^14.1.2"
+  }
+}
